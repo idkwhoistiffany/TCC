@@ -89,5 +89,13 @@ document.addEventListener('DOMContentLoaded', function() {
             this.reset();
         });
     }
+
+        // Carrega as imagens de forma lazy
+    if ('loading' in HTMLImageElement.prototype) {
+        const images = document.querySelectorAll('img[loading="lazy"]');
+        images.forEach(img => {
+            img.src = imagens/;
+        });
+    }
     
 });
