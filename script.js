@@ -90,11 +90,4 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
     
-    // Carrega as imagens de forma lazy
-    if ('loading' in HTMLImageElement.prototype) {
-        const images = document.querySelectorAll('');
-        images.forEach(img => {
-            img.src = img.dataset.src;
-        });
-    }
 });
