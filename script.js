@@ -84,7 +84,7 @@ document.addEventListener('DOMContentLoaded', function() {
         contactForm.addEventListener('submit', function(e) {
             e.preventDefault();
             
-            // Simulação de envio - você deve substituir por seu código de envio real
+            
             alert('Mensagem enviada com sucesso! Entraremos em contato em breve.');
             this.reset();
         });
@@ -92,7 +92,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Carrega as imagens de forma lazy
     if ('loading' in HTMLImageElement.prototype) {
-        const images = document.querySelectorAll('img[loading="lazy"]');
+        const images = document.querySelectorAll('');
         images.forEach(img => {
             img.src = img.dataset.src;
         });
