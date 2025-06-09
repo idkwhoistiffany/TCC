@@ -84,18 +84,19 @@ document.addEventListener('DOMContentLoaded', function() {
         contactForm.addEventListener('submit', function(e) {
             e.preventDefault();
             
-            
+            // Simulação de envio - você deve substituir por seu código de envio real
             alert('Mensagem enviada com sucesso! Entraremos em contato em breve.');
             this.reset();
         });
     }
-
-        // Carrega as imagens de forma lazy
+    
+    // Carrega as imagens de forma lazy
     if ('loading' in HTMLImageElement.prototype) {
         const images = document.querySelectorAll('img[loading="lazy"]');
-        images.forEach(img => {
-            img.src = imagens/;
+        images.forEach(function (img) {
+            if (img.dataset && img.dataset.src) {
+                img.src = img.dataset.src;
+            }
         });
     }
-    
 });
