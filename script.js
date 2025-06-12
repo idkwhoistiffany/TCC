@@ -84,7 +84,7 @@ document.addEventListener('DOMContentLoaded', function() {
         contactForm.addEventListener('submit', function(e) {
             e.preventDefault();
             
-            // Simulação de envio - você deve substituir por seu código de envio real
+            // Simulação de envio 
             alert('Mensagem enviada com sucesso! Entraremos em contato em breve.');
             this.reset();
         });
