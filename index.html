@@ -19,6 +19,13 @@
     <!-- Pré-conexão para melhor performance -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <style>
+        /* Move o botão para cima - ajuste o valor conforme necessário */
+        #userwayAccessibilityIcon {
+        bottom: -500px !important; /* Valor padrão é algo como 20px. Aumente para subir */
+        }
+       </style>
 </head>
 
 <body>
@@ -272,6 +279,15 @@
     <script src="script.js"></script>
     <script>
         new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+
+    <script>
+    (function(d){
+    var s = d.createElement("script");
+    s.setAttribute("data-account", "https://idkwhoistiffany.github.io/TCC/");
+    s.src="https://cdn.userway.org/widget.js";
+    (d.body || d.head).appendChild(s);
+    })(document)
     </script>
 </body>
 </html>
