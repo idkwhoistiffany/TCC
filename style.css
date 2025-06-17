@@ -572,17 +572,6 @@ img {
     border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.legal-links {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    margin-top: 15px;
-}
-
-.legal-links a:hover {
-    color: var(--primary);
-}
-
 /* BOTÃO VOLTAR AO TOPO */
 .back-to-top {
     position: fixed;
